@@ -20,6 +20,9 @@ echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sou
 sudo apt update
 sudo apt full-upgrade -y
 
+# Purge Rhythmbox
+sudo apt purge -y rhythmbox
+
 # Install Programs
 sudo apt install -y mainline
 sudo apt install -y sublime-text

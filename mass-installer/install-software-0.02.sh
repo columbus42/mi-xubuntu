@@ -16,12 +16,12 @@ sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packag
 curl -sS https://download.spotify.com/debian/pubkey_7A3A762FAFD4A51F.gpg | sudo gpg --dearmor --yes -o /etc/apt/trusted.gpg.d/spotify.gpg
 echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
 
+# Purge Rhythmbox
+sudo apt purge -y rhythmbox
+
 # Update and Upgrade
 sudo apt update
 sudo apt full-upgrade -y
-
-# Purge Rhythmbox
-sudo apt purge -y rhythmbox
 
 # Install Programs
 sudo apt install -y mainline

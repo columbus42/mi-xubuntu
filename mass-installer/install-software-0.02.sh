@@ -43,7 +43,6 @@ sudo apt install -y htop
 sudo apt install -y simplenote
 sudo apt install -y apt-transport-https
 sudo apt install -y code
-sudo apt install -y audio-recorder
 sudo apt install -y p7zip-full 
 sudo apt install -y p7zip-rar
 sudo apt install -y ffmpeg

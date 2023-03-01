@@ -49,6 +49,7 @@ sudo apt install -y ffmpeg
 sudo apt install -y filezilla
 sudo apt install -y gparted
 sudo apt install -y build-essential gcc make perl dkms
+sudo apt install -y ubuntu-restricted-extras
 #sudo apt install -y lmms
 #sudo apt install -y openshot
 # Foxit Reader needs to be installed manually from website

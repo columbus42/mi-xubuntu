@@ -31,6 +31,7 @@ sudo apt install -y emacs
 sudo apt install -y transmission
 sudo apt install -y thunderbird
 sudo apt install -y clementine
+sudo apt install -y firefox
 sudo apt install -y chromium-browser
 sudo apt install -y libreoffice
 sudo apt install -y gimp 

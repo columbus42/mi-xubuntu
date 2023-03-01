@@ -18,7 +18,7 @@ echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sou
 
 # Update and Upgrade
 sudo apt update
-sudo apt full-upgrade
+sudo apt full-upgrade -y
 
 # Install Programs
 sudo apt install -y mainline
